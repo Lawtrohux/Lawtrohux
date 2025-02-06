@@ -11,6 +11,8 @@ I work on various exciting projects and am always keen to learn new technologies
 - **Data Evaluation**: Conducting data analysis and evaluation to support project decisions regarding off-planet activities.
 - **Photo Technologies**: Further pushing large-scale photo analysis and systems in the tourism industry.
 
+Formerly, I worked in Sound Engineering too!
+
 ## Recent Major reworks to osu!taiko
 
 Here are some of my notable contributions:
