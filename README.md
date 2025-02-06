@@ -27,13 +27,15 @@ _For a full list of my contributions, check out my [merged pull requests](https:
 
 To set up and check changes for yourself for taiko, follow the instructions below!
 
-1. **Clone the Repository**:
+1. **Clone the osu Repository**:
    ```bash
    git clone https://github.com/Lawtrohux/osu.git
    cd osu
    git checkout (insert branch name here)
    uselocalosu.sh
-
+   ```
+2. **Clone the osu-tools Repository**
+   ```bash
    git clone https://github.com/ppy/osu-tools.git
    cd osu-tools
    cd PerformanceCalculatorGui
