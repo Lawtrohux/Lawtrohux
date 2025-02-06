@@ -1,42 +1,40 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
+# Who am I?
 
+Welcome to my GitHub profile! Whilst I do analytics all the way *to the moon*, most know me for being lead on the osu!taiko pp committee!
 
+## About Me
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+I work on various exciting projects and am always keen to learn new technologies and improve my skills. You can reach me at [jay@ltca.pro](mailto:jayl@ltca.pro).
 
-![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Editor-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Shell-CMD-informational?style=flat&logo=Windows&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Gradle-informational?style=flat&logo=gradle&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Cloud-Digital_Ocean-informational?style=flat&logo=digitalocean&logoColor=white&color=2bbc8a)
+### Roles
+- **osu!taiko pp committee**: Leading the development and balance of osu!taiko's performance points and star rating system.
+- **Data Evaluation**: Conducting data analysis and evaluation to support project decisions regarding off-planet activities.
+- **Photo Technologies**: Further pushing large-scale photo analysis and systems in the tourism industry.
 
-## &#x1f4c8; GitHub Stats
+## Recent Major reworks to osu!taiko
 
-<a href="https://github.com/Lawtrohux/Lawtrohux">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Lawtrohux&show_icons=true&line_height=27&count_private=true&theme=dark" alt="Jay's GitHub Stats" />
-</a>
+Here are some of my notable contributions:
 
+- **[Rewrite of the `Rhythm` Skill within osu!taiko](https://github.com/ppy/osu/pull/31284)**: Reworked rhythm difficulty based on interval ratios, penalised consistent intervals within rhythm, and introduced new rhythm data classes.
 
-<!-- CONTACT -->
-## Contact
+- **[Add `consistentRatioPenalty` to the `Colour` skill](https://github.com/ppy/osu/pull/31285)**: Evaluated a consistency penalty based on rhythmic ratios and implemented a consistency check and penalty calculation.
 
-Your Name - [@Lawtron](https://twitter.com/Lawtron) - Lawtron.Jay@protonmail.com
+- **[Improve convert considerations in osu!taiko](https://github.com/ppy/osu/pull/31546)**: Removed conditional convert nerf to star rating, focused on stamina, and disabled the `mono` note buff in stamina.
 
-Project Link: [https://github.com/Lawtrohux/salhackpremiumexclusivegoldfoundersedition](https://github.com/Lawtrohux/salhackpremiumexclusivegoldfoundersedition)
+_For a full list of my contributions, check out my [merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ALawtrohux+is%3Aclosed&sort=updated&order=desc)._
 
+## Setup Instructions
 
+To set up and check changes for yourself for taiko, follow the instructions below!
 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Lawtrohux/osu.git
+   cd osu
+   git checkout (insert branch name here)
+   uselocalosu.sh
+
+   git clone https://github.com/ppy/osu-tools.git
+   cd osu-tools
+   cd PerformanceCalculatorGui
+   dotnet run
